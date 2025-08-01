@@ -54,8 +54,8 @@ jobs:
         run: |
           npm install -g sonarqube-scanner
           sonar-scanner \
-            -Dsonar.projectKey=mohamedutopios_cesi-ci-cd-ops-angular \
-            -Dsonar.organization=mohamedutopios \
+            -Dsonar.projectKey=MarcaAntoine_ci-cd-angular-sonar-docker \
+            -Dsonar.organization=marcaantoine \
             -Dsonar.sources=src/app \
             -Dsonar.tests=src \
             -Dsonar.test.inclusions=src/**/*.spec.ts \
